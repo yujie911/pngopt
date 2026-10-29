@@ -1,0 +1,49 @@
+# 编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.obj
+*.lib
+
+# 构建输出目录
+/dist/
+/build/
+/out/
+
+# 依赖与缓存
+/vendor/
+/node_modules/
+
+# 测试与覆盖率
+*.test
+*.out
+coverage.txt
+coverage.html
+
+# 临时文件
+*.tmp
+*.bak
+*.log
+tmp/
+.cache/
+
+# 编辑器与 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 素材与示例图片（不随仓库分发）
+*.png
+!docs/*.png
+!assets/*.png
